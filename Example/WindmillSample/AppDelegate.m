@@ -7,8 +7,10 @@
 
 #import "AppDelegate.h"
 #import <WindMillSDK/WindMillSDK.h>
+#import <GDTMobSDK/GDTSDKConfig.h>
+#import <WindFoundation/WindFoundation.h>
 
-@interface AppDelegate ()
+@interface AppDelegate ()<AWMAdNetworkInitDelegate>
 
 @end
 
@@ -23,7 +25,7 @@
     [WindMillAds setDebugEnable:YES];
     //初始化SDK
     [WindMillAds setupSDKWithAppId:@"16990"];
-    
+    [WindMillAds setAdNetworkInitListener:self];
     return YES;
 }
 
@@ -60,4 +62,20 @@
         }];
     }
 }
+
+// AWMAdNetworkInitDelegate
+- (void)onNetworkInitBeforeWithChannelId:(WindMillAdn)channelId initInstance:(NSObject *)initInstance {
+    WindmillLogDebug(@"init-listener",@"----------onNetworkInitBefore---------- %d ---initInstance--- %@", (int)channelId, initInstance);
+}
+
+- (void)onNetworkInitSuccessWithChannelId:(WindMillAdn)channelId {
+    WindmillLogDebug(@"init-listener",@"----------onNetworkInitSuccess---------- %d", (int)channelId);
+}
+
+- (void)onNetworkInitFailedWithChannelId:(WindMillAdn)channelId error:(NSError *)error {
+    WindmillLogDebug(@"init-listener",@"----------onNetworkInitFailed---------- %d:%@", (int)channelId, error);
+    
+}
+
+
 @end

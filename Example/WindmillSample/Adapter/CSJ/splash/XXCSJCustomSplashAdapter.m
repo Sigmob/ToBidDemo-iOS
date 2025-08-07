@@ -9,7 +9,7 @@
 #import <WindFoundation/WindFoundation.h>
 #import <BUAdSDK/BUAdSDK.h>
 
-@interface XXCSJCustomSplashAdapter ()<BUSplashAdDelegate,BUSplashCardDelegate, BUSplashZoomOutDelegate>
+@interface XXCSJCustomSplashAdapter ()<BUSplashAdDelegate,BUSplashCardDelegate>
 @property (nonatomic, weak) id<AWMCustomSplashAdapterBridge> bridge;
 @property (nonatomic, strong) BUSplashAd *splashAd;
 @property (nonatomic, strong) AWMParameter *parameter;
@@ -43,10 +43,10 @@
     self.splashAd = [[BUSplashAd alloc] initWithSlotID:parameter.placementId adSize:adSize];
     self.splashAd.delegate = self;
     self.splashAd.cardDelegate = self;
-    self.splashAd.zoomOutDelegate = self;
+//    self.splashAd.zoomOutDelegate = self;
     self.splashAd.tolerateTimeout = fetchDelay;
     self.splashAd.supportCardView = splashType == 1;
-    self.splashAd.supportZoomOutView = splashType == 1;
+//    self.splashAd.supportZoomOutView = splashType == 1;
     [self.splashAd loadAdData];
 }
 - (void)showSplashAdInWindow:(UIWindow *)window parameter:(AWMParameter *)parameter {
@@ -105,14 +105,14 @@
 - (void)splashAdRenderSuccess:(BUSplashAd *)splashAd {
     WindmillLogDebug(@"CSJ", @"%@", NSStringFromSelector(_cmd));
     NSInteger splashType = [[self.parameter.customInfo objectForKey:@"splashType"] intValue];
-    if (splashAd.zoomOutView && splashType == 1) {
-        UIViewController *viewController = [self.bridge viewControllerForPresentingModalView];
-        UIView *supView = viewController.navigationController ? viewController.navigationController.view : viewController.view;
-        [supView insertSubview:splashAd.zoomOutView belowSubview:splashAd.splashView];
-        splashAd.zoomOutView.rootViewController = viewController;
-        CGSize showSize = splashAd.zoomOutView.showSize;
-        splashAd.zoomOutView.frame = CGRectMake(-showSize.width, -showSize.height, showSize.width, showSize.height);
-    }
+//    if (splashAd.zoomOutView && splashType == 1) {
+//        UIViewController *viewController = [self.bridge viewControllerForPresentingModalView];
+//        UIView *supView = viewController.navigationController ? viewController.navigationController.view : viewController.view;
+//        [supView insertSubview:splashAd.zoomOutView belowSubview:splashAd.splashView];
+//        splashAd.zoomOutView.rootViewController = viewController;
+//        CGSize showSize = splashAd.zoomOutView.showSize;
+//        splashAd.zoomOutView.frame = CGRectMake(-showSize.width, -showSize.height, showSize.width, showSize.height);
+//    }
     self.isReady = YES;
     [self.bridge splashAdDidLoad:self];
 }
@@ -141,12 +141,12 @@
     }
     UIViewController *viewController = [self.bridge viewControllerForPresentingModalView];
     // 展示卡片
-    if (self.splashAd.zoomOutView) {
-        [self.splashAd showZoomOutViewInRootViewController:viewController];
-    }else {
+//    if (self.splashAd.zoomOutView) {
+//        [self.splashAd showZoomOutViewInRootViewController:viewController];
+//    }else {
         [self removeSplashAdView];
         [self.bridge splashAdDidClose:self];
-    }
+//    }
 }
 - (void)splashAdViewControllerDidClose:(nonnull BUSplashAd *)splashAd {}
 - (void)splashAdWillShow:(nonnull BUSplashAd *)splashAd {}

@@ -15,6 +15,7 @@ def commonPods
   pod 'Bugly'
   pod 'MJRefresh', '3.7.2'
   pod 'SDWebImage', '5.12.1'
+  pod 'Ads-CN',  :subspecs => ['BUAdLive-Framework']
 end
 
 
@@ -24,7 +25,7 @@ target 'WindmillSample' do
   
   # Pods for WindmillSample
   commonPods
-  pod 'ToBid-iOS', '4.5.4', :subspecs => [
+  pod 'ToBid-iOS', '4.6.0', :subspecs => [
       'TouTiaoAdapter',
       'AdmobAdapter',
       'CSJMediationAdapter',
@@ -37,7 +38,6 @@ target 'WindmillSample' do
       'KlevinAdapter',
       'MSAdAdapter',
       'AdScopeAdapter',
-      'BidResultAdapter',
       'JADYunAdapter',
       'OctopusAdapter',
       'MercuryAdapter',
