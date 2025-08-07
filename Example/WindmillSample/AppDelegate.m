@@ -9,6 +9,8 @@
 #import <WindMillSDK/WindMillSDK.h>
 #import <GDTMobSDK/GDTSDKConfig.h>
 #import <WindFoundation/WindFoundation.h>
+#import <GDTMobSDK/GDTSDKConfig.h>
+#import <KSAdSDK/KSAdSDK.h>
 
 @interface AppDelegate ()<AWMAdNetworkInitDelegate>
 
@@ -66,6 +68,13 @@
 // AWMAdNetworkInitDelegate
 - (void)onNetworkInitBeforeWithChannelId:(WindMillAdn)channelId initInstance:(NSObject *)initInstance {
     WindmillLogDebug(@"init-listener",@"----------onNetworkInitBefore---------- %d ---initInstance--- %@", (int)channelId, initInstance);
+    if (channelId == WindMillAdnGDT) {
+        [GDTSDKConfig enableDefaultAudioSessionSetting:NO];
+    }
+    if ([initInstance isKindOfClass:[KSAdSDKConfiguration class]]) {
+        KSAdSDKConfiguration *configuration = (KSAdSDKConfiguration *)initInstance;
+        [configuration setLoglevel:KSAdSDKLogLevelDebug];
+    }
 }
 
 - (void)onNetworkInitSuccessWithChannelId:(WindMillAdn)channelId {
