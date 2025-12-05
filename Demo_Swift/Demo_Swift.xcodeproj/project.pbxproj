@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1836E0005F065BF9C703725 /* Pods_Demo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223621F25A1498ABDA366FC /* Pods_Demo_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0838674915E019CC3624FB86 /* Pods-Demo_Global.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Global.debug.xcconfig"; path = "Target Support Files/Pods-Demo_Global/Pods-Demo_Global.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3C8AF4250E2C5BDDD3D265 /* Pods-Demo_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Swift.debug.xcconfig"; path = "Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		437FB2EB3875D6BED5656B80 /* Pods-Demo_Moto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Moto.debug.xcconfig"; path = "Target Support Files/Pods-Demo_Moto/Pods-Demo_Moto.debug.xcconfig"; sourceTree = "<group>"; };
+		44B4B70106D12CC8274EDE68 /* Pods-Demo_Naodong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Naodong.debug.xcconfig"; path = "Target Support Files/Pods-Demo_Naodong/Pods-Demo_Naodong.debug.xcconfig"; sourceTree = "<group>"; };
+		4F190366D16CAFE12A954C08 /* Pods_Demo_Naodong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_Naodong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540308AC7DA64713A9B9F46A /* Pods-Demo_JD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_JD.release.xcconfig"; path = "Target Support Files/Pods-Demo_JD/Pods-Demo_JD.release.xcconfig"; sourceTree = "<group>"; };
+		5C11B419224E56E871116E61 /* Pods-Demo_Global.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Global.release.xcconfig"; path = "Target Support Files/Pods-Demo_Global/Pods-Demo_Global.release.xcconfig"; sourceTree = "<group>"; };
+		7A55DDAD5C1C6852F54B76CD /* Pods_Demo_JD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_JD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9281A8CEABF24AFCA43713BA /* Pods-Demo_Naodong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Naodong.release.xcconfig"; path = "Target Support Files/Pods-Demo_Naodong/Pods-Demo_Naodong.release.xcconfig"; sourceTree = "<group>"; };
+		9FFE9CACF0EB10D2EEB25615 /* Pods-Demo_Moto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Moto.release.xcconfig"; path = "Target Support Files/Pods-Demo_Moto/Pods-Demo_Moto.release.xcconfig"; sourceTree = "<group>"; };
+		AD491E57A51403C720C503DF /* Pods-Demo_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Swift.release.xcconfig"; path = "Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		B04AB20F860FB697380F7A4D /* Pods-Demo_JD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_JD.debug.xcconfig"; path = "Target Support Files/Pods-Demo_JD/Pods-Demo_JD.debug.xcconfig"; sourceTree = "<group>"; };
+		C70071C22E73BA5F00B4D89A /* WindMillBeiZiAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillBeiZiAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70139662E5322A400883CAC /* WindMillBaiduAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillBaiduAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70139682E5322A400883CAC /* WindMillGDTAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillGDTAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C701396A2E5322A400883CAC /* WindMillKSAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillKSAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7013C602E587D6400883CAC /* CustomCSJAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomCSJAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7013C622E587D6400883CAC /* CustomGDTAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomGDTAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70345712E5C720C00EB20B7 /* CustomAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70360F32E6AC0A800A78C35 /* WindMillMercuryAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMercuryAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70D36F72E83DE7700A6107A /* WindMillMTGAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMTGAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70D37532E83EBF800A6107A /* WindMillAdmobAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillAdmobAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74FA9F82E8675F600111DF2 /* WindMillInmobiAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillInmobiAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74FA9FF2E86760D00111DF2 /* WindMillPangleAdAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillPangleAdAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C763F24B2E84E0DE00F45C2C /* WindMillIronSourceAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillIronSourceAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C763F24F2E84E4B100F45C2C /* WindMillAppLovinAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillAppLovinAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C763F2862E8510D100F45C2C /* WindMillUnityAdsAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillUnityAdsAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77AC6892E508014008C083C /* libWindMillSigmobAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWindMillSigmobAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C783C5D22E72DF3900A5D2A5 /* WindMillQuMengAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillQuMengAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C783C5D62E72E1AA00A5D2A5 /* QuMengAdSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = QuMengAdSDK.xcframework; path = Pods/QuMengAdSDK/QuMengAdSDK.xcframework; sourceTree = "<group>"; };
+		C78691CF2E7D27E90092D183 /* WindMillAdInfoPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillAdInfoPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C786A0662E7D2DC10092D183 /* WindMillSigmobAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillSigmobAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78940572E77EF1300301653 /* WindMillMSAdAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMSAdAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C793D3D82E3723E600FA8283 /* Demo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C793D5E22E372A6700FA8283 /* WindMillSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C794CD7C2E79532500D28FB7 /* WindMillJADYunAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillJADYunAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B8D22E2E7A9D2E0034CB51 /* WindMillBidResultPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillBidResultPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CE69062E498A7C00E330AA /* WindMillCSJAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillCSJAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CE69082E498A7C00E330AA /* WindMillGroMoreAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillGroMoreAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D29C822E838A88002100E4 /* libWindMillSigmobAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWindMillSigmobAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D29C842E838A8E002100E4 /* libWindMillAdInfoPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWindMillAdInfoPlugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E9AC552E851F0B00AF9C44 /* WindMillVungleAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillVungleAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F13DD32E6E85CB00BF7A50 /* WindMillOctopusAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillOctopusAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB2EC855E75C6D01C1A155C /* Pods_Demo_Moto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_Moto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF584C0102603FE54F78D1CB /* Pods_Demo_Global.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_Global.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E223621F25A1498ABDA366FC /* Pods_Demo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C793D3EA2E3723E700FA8283 /* Exceptions for "Demo_Swift" folder in "Demo_Swift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info_global.plist,
+				Info_moto.plist,
+				Info_naodong.plist,
+				Info.plist,
+			);
+			target = C793D3D72E3723E600FA8283 /* Demo_Swift */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C793D3DA2E3723E600FA8283 /* Demo_Swift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C793D3EA2E3723E700FA8283 /* Exceptions for "Demo_Swift" folder in "Demo_Swift" target */,
+			);
+			path = Demo_Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C793D3D52E3723E600FA8283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1836E0005F065BF9C703725 /* Pods_Demo_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247135952B5EB373CE9EDCE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F3C8AF4250E2C5BDDD3D265 /* Pods-Demo_Swift.debug.xcconfig */,
+				AD491E57A51403C720C503DF /* Pods-Demo_Swift.release.xcconfig */,
+				437FB2EB3875D6BED5656B80 /* Pods-Demo_Moto.debug.xcconfig */,
+				9FFE9CACF0EB10D2EEB25615 /* Pods-Demo_Moto.release.xcconfig */,
+				B04AB20F860FB697380F7A4D /* Pods-Demo_JD.debug.xcconfig */,
+				540308AC7DA64713A9B9F46A /* Pods-Demo_JD.release.xcconfig */,
+				44B4B70106D12CC8274EDE68 /* Pods-Demo_Naodong.debug.xcconfig */,
+				9281A8CEABF24AFCA43713BA /* Pods-Demo_Naodong.release.xcconfig */,
+				0838674915E019CC3624FB86 /* Pods-Demo_Global.debug.xcconfig */,
+				5C11B419224E56E871116E61 /* Pods-Demo_Global.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6CA7FB1BE4C5DC7BEC010BC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C74FA9FF2E86760D00111DF2 /* WindMillPangleAdAdapter.framework */,
+				C74FA9F82E8675F600111DF2 /* WindMillInmobiAdapter.framework */,
+				C7E9AC552E851F0B00AF9C44 /* WindMillVungleAdapter.framework */,
+				C763F2862E8510D100F45C2C /* WindMillUnityAdsAdapter.framework */,
+				C763F24F2E84E4B100F45C2C /* WindMillAppLovinAdapter.framework */,
+				C763F24B2E84E0DE00F45C2C /* WindMillIronSourceAdapter.framework */,
+				C70D37532E83EBF800A6107A /* WindMillAdmobAdapter.framework */,
+				C70D36F72E83DE7700A6107A /* WindMillMTGAdapter.framework */,
+				C7D29C842E838A8E002100E4 /* libWindMillAdInfoPlugin.a */,
+				C7D29C822E838A88002100E4 /* libWindMillSigmobAdapter.a */,
+				C786A0662E7D2DC10092D183 /* WindMillSigmobAdapter.framework */,
+				C78691CF2E7D27E90092D183 /* WindMillAdInfoPlugin.framework */,
+				C7B8D22E2E7A9D2E0034CB51 /* WindMillBidResultPlugin.framework */,
+				C794CD7C2E79532500D28FB7 /* WindMillJADYunAdapter.framework */,
+				C78940572E77EF1300301653 /* WindMillMSAdAdapter.framework */,
+				C70071C22E73BA5F00B4D89A /* WindMillBeiZiAdapter.framework */,
+				C783C5D62E72E1AA00A5D2A5 /* QuMengAdSDK.xcframework */,
+				C783C5D22E72DF3900A5D2A5 /* WindMillQuMengAdapter.framework */,
+				C7F13DD32E6E85CB00BF7A50 /* WindMillOctopusAdapter.framework */,
+				C70360F32E6AC0A800A78C35 /* WindMillMercuryAdapter.framework */,
+				C70345712E5C720C00EB20B7 /* CustomAdapter.framework */,
+				C7013C602E587D6400883CAC /* CustomCSJAdapter.framework */,
+				C7013C622E587D6400883CAC /* CustomGDTAdapter.framework */,
+				C70139662E5322A400883CAC /* WindMillBaiduAdapter.framework */,
+				C70139682E5322A400883CAC /* WindMillGDTAdapter.framework */,
+				C701396A2E5322A400883CAC /* WindMillKSAdapter.framework */,
+				C77AC6892E508014008C083C /* libWindMillSigmobAdapter.a */,
+				C7CE69062E498A7C00E330AA /* WindMillCSJAdapter.framework */,
+				C7CE69082E498A7C00E330AA /* WindMillGroMoreAdapter.framework */,
+				C793D5E22E372A6700FA8283 /* WindMillSDK.framework */,
+				E223621F25A1498ABDA366FC /* Pods_Demo_Swift.framework */,
+				CAB2EC855E75C6D01C1A155C /* Pods_Demo_Moto.framework */,
+				7A55DDAD5C1C6852F54B76CD /* Pods_Demo_JD.framework */,
+				4F190366D16CAFE12A954C08 /* Pods_Demo_Naodong.framework */,
+				CF584C0102603FE54F78D1CB /* Pods_Demo_Global.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C793D3CF2E3723E600FA8283 = {
+			isa = PBXGroup;
+			children = (
+				C793D3DA2E3723E600FA8283 /* Demo_Swift */,
+				C793D3D92E3723E600FA8283 /* Products */,
+				247135952B5EB373CE9EDCE9 /* Pods */,
+				6CA7FB1BE4C5DC7BEC010BC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C793D3D92E3723E600FA8283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C793D3D82E3723E600FA8283 /* Demo_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C793D3D72E3723E600FA8283 /* Demo_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C793D3EB2E3723E700FA8283 /* Build configuration list for PBXNativeTarget "Demo_Swift" */;
+			buildPhases = (
+				9190859DE0131A15C7A4B8C9 /* [CP] Check Pods Manifest.lock */,
+				C793D3D42E3723E600FA8283 /* Sources */,
+				C793D3D52E3723E600FA8283 /* Frameworks */,
+				C793D3D62E3723E600FA8283 /* Resources */,
+				A09F0BBE9A7FF2133B792BCA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C793D3DA2E3723E600FA8283 /* Demo_Swift */,
+			);
+			name = Demo_Swift;
+			productName = Demo_Swift;
+			productReference = C793D3D82E3723E600FA8283 /* Demo_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C793D3D02E3723E600FA8283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					C793D3D72E3723E600FA8283 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = C793D3D32E3723E600FA8283 /* Build configuration list for PBXProject "Demo_Swift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"Base 2",
+			);
+			mainGroup = C793D3CF2E3723E600FA8283;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C793D3D92E3723E600FA8283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C793D3D72E3723E600FA8283 /* Demo_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C793D3D62E3723E600FA8283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9190859DE0131A15C7A4B8C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A09F0BBE9A7FF2133B792BCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C793D3D42E3723E600FA8283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C793D3EC2E3723E700FA8283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3C8AF4250E2C5BDDD3D265 /* Pods-Demo_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo_Swift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ToBid[Swift]";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "我们使用您的广告标识符来展示更相关的广告。您可以随时在“设置”中管理广告跟踪偏好。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"ObjC\"",
+					"-l\"bz2\"",
+					"-l\"c\"",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"resolv.9\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"swiftCoreGraphics\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFAudio\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppLovinSDK\"",
+					"-framework",
+					"\"AppTrackingTransparency\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolBox\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"BUAdSDK\"",
+					"-framework",
+					"\"BaiduMobAdSDK\"",
+					"-framework",
+					"\"BeiZiFoundation\"",
+					"-framework",
+					"\"BeiZiSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CSJMediation\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreServices\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"DoraemonKit\"",
+					"-framework",
+					"\"Eureka\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GCDWebServer\"",
+					"-framework",
+					"\"GDTMobSDK\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"Google_Mobile_Ads_SDK\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"IronSource\"",
+					"-framework",
+					"\"JADYun\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"KSAdSDK\"",
+					"-framework",
+					"\"KakaJSON\"",
+					"-framework",
+					"\"KeychainAccess\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MSAdMotion\"",
+					"-framework",
+					"\"MSAdSDK\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MercurySDK\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Network\"",
+					"-framework",
+					"\"OctAdSDK\"",
+					"-framework",
+					"\"OctCore\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"QuMengAdSDK\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuickLook\"",
+					"-framework",
+					"\"SDCAlertView\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Toast_Swift\"",
+					"-framework",
+					"\"Tquic\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UnityAds\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"VungleAdsSDK\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"WindFoundation\"",
+					"-framework",
+					"\"WindSDK\"",
+					"-framework",
+					"\"YYDebugDatabase\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"AppTrackingTransparency\"",
+					"-weak_framework",
+					"\"CoreHaptics\"",
+					"-weak_framework",
+					"\"CoreML\"",
+					"-weak_framework",
+					"\"DeviceCheck\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.iosdemo.swift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C793D3ED2E3723E700FA8283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD491E57A51403C720C503DF /* Pods-Demo_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo_Swift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ToBid[Swift]";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "我们使用您的广告标识符来展示更相关的广告。您可以随时在“设置”中管理广告跟踪偏好。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"ObjC\"",
+					"-l\"bz2\"",
+					"-l\"c\"",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"resolv.9\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"swiftCoreGraphics\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFAudio\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppLovinSDK\"",
+					"-framework",
+					"\"AppTrackingTransparency\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolBox\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"BUAdSDK\"",
+					"-framework",
+					"\"BaiduMobAdSDK\"",
+					"-framework",
+					"\"BeiZiFoundation\"",
+					"-framework",
+					"\"BeiZiSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CSJMediation\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreServices\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"DoraemonKit\"",
+					"-framework",
+					"\"Eureka\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GCDWebServer\"",
+					"-framework",
+					"\"GDTMobSDK\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"Google_Mobile_Ads_SDK\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"IronSource\"",
+					"-framework",
+					"\"JADYun\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"KSAdSDK\"",
+					"-framework",
+					"\"KakaJSON\"",
+					"-framework",
+					"\"KeychainAccess\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MSAdMotion\"",
+					"-framework",
+					"\"MSAdSDK\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MercurySDK\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Network\"",
+					"-framework",
+					"\"OctAdSDK\"",
+					"-framework",
+					"\"OctCore\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"QuMengAdSDK\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuickLook\"",
+					"-framework",
+					"\"SDCAlertView\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Toast_Swift\"",
+					"-framework",
+					"\"Tquic\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UnityAds\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"VungleAdsSDK\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"WindFoundation\"",
+					"-framework",
+					"\"WindSDK\"",
+					"-framework",
+					"\"YYDebugDatabase\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"AppTrackingTransparency\"",
+					"-weak_framework",
+					"\"CoreHaptics\"",
+					"-weak_framework",
+					"\"CoreML\"",
+					"-weak_framework",
+					"\"DeviceCheck\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.iosdemo.swift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C793D3EE2E3723E700FA8283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C793D3EF2E3723E700FA8283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C793D3D32E3723E600FA8283 /* Build configuration list for PBXProject "Demo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C793D3EE2E3723E700FA8283 /* Debug */,
+				C793D3EF2E3723E700FA8283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C793D3EB2E3723E700FA8283 /* Build configuration list for PBXNativeTarget "Demo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C793D3EC2E3723E700FA8283 /* Debug */,
+				C793D3ED2E3723E700FA8283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C793D3D02E3723E600FA8283 /* Project object */;
+}

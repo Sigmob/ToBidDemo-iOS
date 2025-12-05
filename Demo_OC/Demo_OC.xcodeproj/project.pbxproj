@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94DD693C148B484980E99D1D /* Pods_Demo_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AD399E701AEC6782F6B23A /* Pods_Demo_OC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16E4E7758EABE34B8EC1B004 /* Pods-Demo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_OC.release.xcconfig"; path = "Target Support Files/Pods-Demo_OC/Pods-Demo_OC.release.xcconfig"; sourceTree = "<group>"; };
+		C73B260A2EBF1156005AEE1A /* CustomAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B260C2EBF1156005AEE1A /* CustomCSJAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomCSJAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B260E2EBF1156005AEE1A /* WindMillAdmobAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillAdmobAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26102EBF1156005AEE1A /* WindMillAppLovinAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillAppLovinAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26122EBF1156005AEE1A /* WindMillBaiduAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillBaiduAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26142EBF1156005AEE1A /* WindMillBeiZiAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillBeiZiAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26162EBF1156005AEE1A /* WindMillCSJAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillCSJAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26182EBF1156005AEE1A /* WindMillGDTAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillGDTAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B261A2EBF1156005AEE1A /* WindMillGroMoreAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillGroMoreAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B261C2EBF1156005AEE1A /* WindMillInmobiAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillInmobiAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B261E2EBF1156005AEE1A /* WindMillIronSourceAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillIronSourceAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26202EBF1156005AEE1A /* WindMillJADYunAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillJADYunAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26222EBF1156005AEE1A /* WindMillKSAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillKSAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26242EBF1156005AEE1A /* WindMillMercuryAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMercuryAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26262EBF1156005AEE1A /* WindMillMSAdAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMSAdAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26282EBF1156005AEE1A /* WindMillMTGAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMTGAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B262A2EBF1156005AEE1A /* WindMillOctopusAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillOctopusAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B262C2EBF1156005AEE1A /* WindMillPangleAdAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillPangleAdAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B262E2EBF1156005AEE1A /* WindMillQuMengAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillQuMengAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26302EBF1156005AEE1A /* libWindMillSigmobAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWindMillSigmobAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26322EBF1156005AEE1A /* WindMillUnityAdsAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillUnityAdsAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B26342EBF1156005AEE1A /* WindMillVungleAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillVungleAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B27F02EBF1CBE005AEE1A /* WindMillBidResultPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillBidResultPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B27F22EBF1D0F005AEE1A /* libWindMillAdInfoPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWindMillAdInfoPlugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E5284C2EBEF1C700C8ED91 /* Demo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E52CA32EBEF59100C8ED91 /* WindMillSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D745EDAA375AFAA89CD380A1 /* Pods-Demo_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_OC.debug.xcconfig"; path = "Target Support Files/Pods-Demo_OC/Pods-Demo_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		E1AD399E701AEC6782F6B23A /* Pods_Demo_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C7E528632EBEF1C800C8ED91 /* Exceptions for "Demo_OC" folder in "Demo_OC" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C7E5284B2EBEF1C700C8ED91 /* Demo_OC */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7E5284E2EBEF1C700C8ED91 /* Demo_OC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C7E528632EBEF1C800C8ED91 /* Exceptions for "Demo_OC" folder in "Demo_OC" target */,
+			);
+			path = Demo_OC;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E528492EBEF1C700C8ED91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD693C148B484980E99D1D /* Pods_Demo_OC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DAE4D709F890F39DBF23805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C73B27F22EBF1D0F005AEE1A /* libWindMillAdInfoPlugin.a */,
+				C73B27F02EBF1CBE005AEE1A /* WindMillBidResultPlugin.framework */,
+				C73B260A2EBF1156005AEE1A /* CustomAdapter.framework */,
+				C73B260C2EBF1156005AEE1A /* CustomCSJAdapter.framework */,
+				C73B260E2EBF1156005AEE1A /* WindMillAdmobAdapter.framework */,
+				C73B26102EBF1156005AEE1A /* WindMillAppLovinAdapter.framework */,
+				C73B26122EBF1156005AEE1A /* WindMillBaiduAdapter.framework */,
+				C73B26142EBF1156005AEE1A /* WindMillBeiZiAdapter.framework */,
+				C73B26162EBF1156005AEE1A /* WindMillCSJAdapter.framework */,
+				C73B26182EBF1156005AEE1A /* WindMillGDTAdapter.framework */,
+				C73B261A2EBF1156005AEE1A /* WindMillGroMoreAdapter.framework */,
+				C73B261C2EBF1156005AEE1A /* WindMillInmobiAdapter.framework */,
+				C73B261E2EBF1156005AEE1A /* WindMillIronSourceAdapter.framework */,
+				C73B26202EBF1156005AEE1A /* WindMillJADYunAdapter.framework */,
+				C73B26222EBF1156005AEE1A /* WindMillKSAdapter.framework */,
+				C73B26242EBF1156005AEE1A /* WindMillMercuryAdapter.framework */,
+				C73B26262EBF1156005AEE1A /* WindMillMSAdAdapter.framework */,
+				C73B26282EBF1156005AEE1A /* WindMillMTGAdapter.framework */,
+				C73B262A2EBF1156005AEE1A /* WindMillOctopusAdapter.framework */,
+				C73B262C2EBF1156005AEE1A /* WindMillPangleAdAdapter.framework */,
+				C73B262E2EBF1156005AEE1A /* WindMillQuMengAdapter.framework */,
+				C73B26302EBF1156005AEE1A /* libWindMillSigmobAdapter.a */,
+				C73B26322EBF1156005AEE1A /* WindMillUnityAdsAdapter.framework */,
+				C73B26342EBF1156005AEE1A /* WindMillVungleAdapter.framework */,
+				C7E52CA32EBEF59100C8ED91 /* WindMillSDK.framework */,
+				E1AD399E701AEC6782F6B23A /* Pods_Demo_OC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		635D76C8A84579223C90D6A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D745EDAA375AFAA89CD380A1 /* Pods-Demo_OC.debug.xcconfig */,
+				16E4E7758EABE34B8EC1B004 /* Pods-Demo_OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7E528432EBEF1C700C8ED91 = {
+			isa = PBXGroup;
+			children = (
+				C7E5284E2EBEF1C700C8ED91 /* Demo_OC */,
+				C7E5284D2EBEF1C700C8ED91 /* Products */,
+				635D76C8A84579223C90D6A8 /* Pods */,
+				2DAE4D709F890F39DBF23805 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E5284D2EBEF1C700C8ED91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E5284C2EBEF1C700C8ED91 /* Demo_OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E5284B2EBEF1C700C8ED91 /* Demo_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E528642EBEF1C800C8ED91 /* Build configuration list for PBXNativeTarget "Demo_OC" */;
+			buildPhases = (
+				3E9AF0B4747C0848AC8DA8DC /* [CP] Check Pods Manifest.lock */,
+				C7E528482EBEF1C700C8ED91 /* Sources */,
+				C7E528492EBEF1C700C8ED91 /* Frameworks */,
+				C7E5284A2EBEF1C700C8ED91 /* Resources */,
+				08C0C3CED744B5657380C8E9 /* [CP] Embed Pods Frameworks */,
+				E33ED7BD682FE00FFAA01362 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7E5284E2EBEF1C700C8ED91 /* Demo_OC */,
+			);
+			name = Demo_OC;
+			productName = Demo_OC;
+			productReference = C7E5284C2EBEF1C700C8ED91 /* Demo_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E528442EBEF1C700C8ED91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					C7E5284B2EBEF1C700C8ED91 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+				};
+			};
+			buildConfigurationList = C7E528472EBEF1C700C8ED91 /* Build configuration list for PBXProject "Demo_OC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E528432EBEF1C700C8ED91;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7E5284D2EBEF1C700C8ED91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E5284B2EBEF1C700C8ED91 /* Demo_OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E5284A2EBEF1C700C8ED91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C0C3CED744B5657380C8E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_OC/Pods-Demo_OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_OC/Pods-Demo_OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo_OC/Pods-Demo_OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9AF0B4747C0848AC8DA8DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33ED7BD682FE00FFAA01362 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_OC/Pods-Demo_OC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_OC/Pods-Demo_OC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo_OC/Pods-Demo_OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E528482EBEF1C700C8ED91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7E528652EBEF1C800C8ED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D745EDAA375AFAA89CD380A1 /* Pods-Demo_OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Demo_OC/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo_OC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ToBid[OC]";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.iosdemo.oc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7E528662EBEF1C800C8ED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E4E7758EABE34B8EC1B004 /* Pods-Demo_OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Demo_OC/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo_OC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ToBid[OC]";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "我们使用您的地理位置来展示更相关的广告。您可以随时在“设置”中管理地理位置偏好。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.iosdemo.oc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7E528672EBEF1C800C8ED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7E528682EBEF1C800C8ED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E528472EBEF1C700C8ED91 /* Build configuration list for PBXProject "Demo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E528672EBEF1C800C8ED91 /* Debug */,
+				C7E528682EBEF1C800C8ED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E528642EBEF1C800C8ED91 /* Build configuration list for PBXNativeTarget "Demo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E528652EBEF1C800C8ED91 /* Debug */,
+				C7E528662EBEF1C800C8ED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E528442EBEF1C700C8ED91 /* Project object */;
+}

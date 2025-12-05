@@ -1,0 +1,46 @@
+//
+//  FeedStyleUtil.m
+//  Demo_OC
+//
+//  Created by Codi on 2025/11/13.
+//
+
+#import "FeedStyleUtil.h"
+#import <UIKit/UIKit.h>
+
+@implementation FeedStyleUtil
+
++ (NSAttributedString *)titleAttributeText:(NSString *)text {
+    if (text == nil) {
+        return nil;
+    }
+    NSMutableDictionary *attribute = @{}.mutableCopy;
+    NSMutableParagraphStyle * titleStrStyle = [[NSMutableParagraphStyle alloc] init];
+    titleStrStyle.lineSpacing = 5;
+    titleStrStyle.alignment = NSTextAlignmentJustified;
+    attribute[NSFontAttributeName] = [UIFont systemFontOfSize:17.f];
+    attribute[NSParagraphStyleAttributeName] = titleStrStyle;
+    return [[NSAttributedString alloc] initWithString:text attributes:attribute];
+}
+
++ (NSAttributedString *)subtitleAttributeText:(NSString *)text {
+    if (text == nil) {
+        return nil;
+    }
+    NSMutableDictionary *attribute = @{}.mutableCopy;
+    attribute[NSFontAttributeName] = [UIFont systemFontOfSize:12.f];
+    attribute[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+    return [[NSAttributedString alloc] initWithString:text attributes:attribute];
+}
+
++ (NSAttributedString *)infoAttributeText:(NSString *)text {
+    if (text == nil) {
+        return nil;
+    }
+    NSMutableDictionary *attribute = @{}.mutableCopy;
+    attribute[NSFontAttributeName] = [UIFont systemFontOfSize:12.f];
+    attribute[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+    return [[NSAttributedString alloc] initWithString:text attributes:attribute];
+}
+
+@end

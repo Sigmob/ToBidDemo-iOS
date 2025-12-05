@@ -1,0 +1,67 @@
+platform :ios, '13.0'
+
+def commonPods
+  # 测试工具
+  pod 'DoraemonKit/Core', '3.1.7'
+  pod 'DoraemonKit/WithLogger', '3.1.7'
+  pod 'DoraemonKit/WithDatabase', '3.1.7'
+  pod 'DoraemonKit/WithLoad', '3.1.7'
+  pod 'DoraemonKit/WithMLeaksFinder', '3.1.7'
+  
+  pod 'Eureka', '5.5.0'
+  pod 'SnapKit'
+  pod 'KakaJSON', '~> 1.1.2'
+  pod 'SDCAlertView'
+  pod 'Toast-Swift'
+  pod 'NVActivityIndicatorView', '5.2.0'
+  pod 'KeychainAccess', '4.2.2'
+  pod 'MJRefresh', '3.7.9'
+  pod 'PopupDialog', '~> 1.1'
+  pod 'WechatOpenSDK-XCFramework'
+  
+end
+
+
+def adCommonPods
+  pod 'ToBid-iOS-Beta', '5.0.0', :subspecs => [
+    'BidResultAdapter',
+    'CSJAdapter',
+    'GromoreAdapter',
+    'GDTAdapter',
+    'KSAdapter',
+    'BaiduAdapter',
+    'AdScopeAdapter',
+    'MSAdAdapter',
+    'MercuryAdapter',
+    'OctopusAdapter',
+    'AdmobAdapter',
+    'JADYunAdapter',
+    'VungleAdapter',
+    'UnityAdsAdapter',
+    'AppLovinAdapter',
+    'IronSourceAdapter',
+    'QuMengAdapter',
+    'AdScopeAdapter',
+]
+end
+
+
+target 'Demo_Swift' do
+  use_frameworks!
+
+  # Pods for Demo_Swift
+  commonPods
+  adCommonPods
+
+end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['CODE_SIGN_IDENTITY'] = ''
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+      end
+    end
+  end
+end
