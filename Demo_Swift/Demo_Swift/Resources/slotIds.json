@@ -1,0 +1,197 @@
+{
+    "splash_ad": [{
+        "name": "百度联盟_开屏广告",
+        "adSlotId": "9173839333293095",
+        "adType": 2
+    },
+    {
+        "name": "穿山甲_开屏广告_自渲染_竖",
+        "adSlotId": "2557859332779578",
+        "adType": 2
+    },
+    {
+        "name": "快手广告_开屏广告_模版渲染",
+        "adSlotId": "5273575612847152",
+        "adType": 2
+    },
+    {
+        "name": "腾讯广告_开屏广告_图文",
+        "adSlotId": "9874754328828823",
+        "adType": 2
+    },
+    {
+        "name": "adscope",
+        "adSlotId": "3587447376114742",
+        "adType": 2
+    },
+    {
+        "name": "开屏-游可赢",
+        "adSlotId": "8335696523490528",
+        "adType": 2
+    },
+    {
+        "name": "开屏-mintegral",
+        "adSlotId": "4291116760884064",
+        "adType": 2
+    }],
+    "banner_ad": [{
+        "name": "AdMob_横幅广告",
+        "adSlotId": "7242732152317874",
+        "adType": 7
+    },
+    {
+        "name": "百度联盟_横幅广告_7:3",
+        "adSlotId": "7771258158986893",
+        "adType": 7
+    },
+    {
+        "name": "穿山甲_横幅广告_模版渲染",
+        "adSlotId": "7316148691848522",
+        "adType": 7
+    },
+    {
+        "name": "腾讯广告_横幅广告",
+        "adSlotId": "1261219727399929",
+        "adType": 7
+    },
+    {
+        "name": "unity-banner",
+        "adSlotId": "7556519713337932",
+        "adType": 7
+    }],
+    "reward_ad": [{
+        "name": "AdMob_激励视频",
+        "adSlotId": "7765183888252898",
+        "adType": 1
+    },
+    {
+        "name": "百度联盟_激励视频",
+        "adSlotId": "5289563931699841",
+        "adType": 1
+    },
+    {
+        "name": "穿山甲_激励视频_模版渲染_竖 ",
+        "adSlotId": "5161749878887362",
+        "adType": 1
+    },
+    {
+        "name": "快手广告_激励视频_竖",
+        "adSlotId": "9569724998587566",
+        "adType": 1
+    },
+    {
+        "name": "腾讯广告_激励视频_横竖屏",
+        "adSlotId": "8662275972853840",
+        "adType": 1
+    },
+    {
+        "name": "激励视频-穿山甲-横",
+        "adSlotId": "1812159969244081",
+        "adType": 1
+    },
+    {
+        "name": "激励视频-vungle",
+        "adSlotId": "9757938166352981",
+        "adType": 1
+    },
+    {
+        "name": "激励视频-mintegral",
+        "adSlotId": "5787358330001656",
+        "adType": 1
+    },
+    {
+        "name": "激励视频-unity",
+        "adSlotId": "1728642467353555",
+        "adType": 1
+    }],
+    "intersititial_ad": [{
+        "name": "AdMob_插屏广告_视频",
+        "adSlotId": "9136699615555138",
+        "adType": 4
+    },
+    {
+        "name": "AdMob_插屏广告",
+        "adSlotId": "9916923646474422",
+        "adType": 4
+    },
+    {
+        "name": "百度联盟_智选模版插屏",
+        "adSlotId": "7225229189748652",
+        "adType": 4
+    },
+    {
+        "name": "穿山甲_新插屏_半屏_混合素材_竖",
+        "adSlotId": "7514675361112896",
+        "adType": 4
+    },
+    {
+        "name": "穿山甲_新插屏_全屏_混合素材_竖",
+        "adSlotId": "2548221365353356",
+        "adType": 4
+    },
+    {
+        "name": "快手广告_模版渲染_竖_混合素材",
+        "adSlotId": "2459616823282870",
+        "adType": 4
+    },
+    {
+        "name": "腾讯广告_插屏广告_视频",
+        "adSlotId": "1664612139766065",
+        "adType": 4
+    }],
+    "native_ad": [{
+        "name": "百度联盟_原生广告_智能优选",
+        "adSlotId": "3372685948559285",
+        "adType": 5
+    },
+    {
+        "name": "穿山甲_模版渲染_混合素材_优选模版",
+        "adSlotId": "9376521516682237",
+        "adType": 5
+    },
+    {
+        "name": "快手广告_自渲染_混合素材_竖",
+        "adSlotId": "8251178562135817",
+        "adType": 5
+    },
+    {
+        "name": "腾讯广告_模版_上图下文",
+        "adSlotId": "8614115182199349",
+        "adType": 5
+    },
+    {
+        "name": "信息流-优量汇-视频",
+        "adSlotId": "4114749323373411",
+        "adType": 5
+    },
+    {
+        "name": "原生广告-百度-模版",
+        "adSlotId": "6417345522251324",
+        "adType": 5
+    },
+    {
+        "name": "mtg_native_模版",
+        "adSlotId": "4793442109057090",
+        "adType": 5
+    },
+    {
+        "name": "mtg_native",
+        "adSlotId": "0891126797201388",
+        "adType": 5
+    },
+    {
+        "name": "信息流-sigmob",
+        "adSlotId": "5756789376418096",
+        "adType": 5
+    },
+    {
+        "name": "穿山甲_Draw_模版渲染",
+        "adSlotId": "1464362417662521",
+        "adType": 5
+    },
+    {
+        "name": "快手广告_原生广告_Draw",
+        "adSlotId": "6321362398819916",
+        "adType": 5
+    }]
+}
