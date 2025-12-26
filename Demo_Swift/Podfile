@@ -23,7 +23,7 @@ end
 
 
 def adCommonPods
-  pod 'ToBid-iOS-Beta', '5.0.0', :subspecs => [
+  pod 'ToBid-iOS-Beta', '5.0.1', :subspecs => [
     'BidResultAdapter',
     'CSJAdapter',
     'GromoreAdapter',
