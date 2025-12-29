@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  WindmillSample
+//
+//  Created by Codi on 2021/12/8.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#ifdef DEBUG
+static const int ddLogLevel = DDLogLevelDebug;
+#else
+static const int ddLogLevel = DDLogLevelInfo;
+#endif
+
+#define Wind_RGB(r,g,b) [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:1]
+
+#endif /* PrefixHeader_pch */
