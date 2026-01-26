@@ -16,7 +16,7 @@
         [self renderExpress:nativeAd adView:adView];
     }else if (nativeAd.feedADMode == WindMillFeedADModeVideo || nativeAd.feedADMode == WindMillFeedADModeVideoPortrait || nativeAd.feedADMode == WindMillFeedADModeVideoLandSpace) {
         [self renderVideo:nativeAd adView:adView];
-    }else if (nativeAd.feedADMode == WindMillFeedADModeLargeImage) {
+    }else if (nativeAd.feedADMode == WindMillFeedADModeLargeImage || nativeAd.feedADMode == WindMillFeedADModePortraitImage || nativeAd.feedADMode == WindMillFeedADModeSmallImage ) {
         [self renderLargeImage:nativeAd adView:adView];
     }else if (nativeAd.feedADMode == WindMillFeedADModeGroupImage) {
         [self renderGroupImage:nativeAd adView:adView];
