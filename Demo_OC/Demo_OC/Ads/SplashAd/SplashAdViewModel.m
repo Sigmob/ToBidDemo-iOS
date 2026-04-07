@@ -37,6 +37,8 @@
         DDLogDebug(@"创建广告对象失败");
         return;
     }
+    splashAd.rootViewController = self.viewController;
+    splashAd.delegate = self.listener;
     if ([self hasLogo]) {
         UIView *logoView = [self getLogoView];
         [splashAd loadAdAndShowWithBottomView:logoView];

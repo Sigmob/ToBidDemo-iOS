@@ -17,7 +17,7 @@ target 'Demo_OC' do
   # Pods for Demo_OC
   commonPods
   
-  pod 'ToBid-iOS-RC', '5.2.3', :subspecs => [
+  pod 'ToBid-iOS-RC', '5.3.4', :subspecs => [
     'BidResultAdapter',
     'CSJAdapter',
     'GromoreAdapter',
@@ -28,16 +28,13 @@ target 'Demo_OC' do
     'MSAdAdapter',
     'MercuryAdapter',
     'OctopusAdapter',
-    'AdmobAdapter',
     'JADYunAdapter',
-    'VungleAdapter',
-    'UnityAdsAdapter',
-    'AppLovinAdapter',
-    'IronSourceAdapter',
     'QuMengAdapter',
     'AdScopeAdapter',
+    'PTGAdapter',
+    'WangMaiAdapter',
+    'JuTuiAdapter',
 ]
-  
 
 end
 

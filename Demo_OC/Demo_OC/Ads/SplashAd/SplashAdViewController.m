@@ -46,7 +46,7 @@
     [form addFormSection:section];
     row = [XLFormRowDescriptor formRowDescriptorWithTag:@"kloadAdAndShow" rowType:XLFormRowDescriptorTypeButton title:@"loadAdAndShow"];
     row.action.formBlock = ^(XLFormRowDescriptor * _Nonnull sender) {
-        [self.viewModel loadAd:[self getSelectPlacementId]];
+        [self.viewModel loadAdAndShow:[self getSelectPlacementId]];
     };
     [section addFormRow:row];
     
